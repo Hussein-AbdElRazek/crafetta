@@ -1,0 +1,64 @@
+.section {
+    font-family: "Tajawal",
+        sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: right;
+    border-bottom: 2px solid black;
+}
+
+.section div {
+    padding-left: 40px;
+}
+
+.section img {
+    width: 50%;
+    height: auto;
+    border-radius: 40px;
+}
+
+.section h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.section h4 {
+    font-size: 18px;
+}
+
+.section h5,
+span {
+    font-size: 16px;
+    font-weight: 600;
+    color: red;
+    color: rgb(245, 128, 46);
+}
+
+.section h5 {
+    margin-top: 20px;
+}
+
+.section span {
+    margin-top: 10px;
+}
+
+@media (max-width:900px) {
+    .section {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .section div {
+        padding-left: 0px;
+    }
+}
+
+@media (max-width:400px) {
+    .section h3 {
+        font-size: 20px;
+    }
+}
