@@ -7,6 +7,7 @@ import sweet2 from './assets/sweet2.jpg'
 import handeMade from './assets/handeMade.png'
 import Footer from './components/Footer';
 import Gallery from './components/Gallery';
+
 function App()
 {
   return (

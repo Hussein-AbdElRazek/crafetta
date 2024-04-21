@@ -2,8 +2,6 @@
     min-height: calc(100vh - 100px);
     background-size: cover;
     text-align: right;
-    /* color: rgb(219, 239, 236);
-    color: rgb(255, 144, 40); */
     color: rgb(255, 255, 255);
     padding: 40px;
     display: flex;
@@ -37,14 +35,7 @@
     background-image: url('../../assets/header4.jpg');
     background-size: cover;
     z-index: -1;
-
 }
-
-/* .header img {
-    display: none;
-    height: 100%;
-} */
-
 
 .header p {
     font-size: 24px;

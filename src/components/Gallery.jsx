@@ -24,7 +24,6 @@ const Gallery = () =>
             <img src={pancake} alt="" />
             
             <img src={fashion4} alt="" />
-
             <img src={fashion1} alt="" />
             <img src={fashion2} alt="" />
             <img src={fashion3} alt="" />

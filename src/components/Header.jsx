@@ -1,10 +1,8 @@
 import classes from './styles/Header.module.css'
-// import headerImg  from '../assets/header2.jpg'
 const Header = () =>
 {
     return (
         <header className={classes.header}>
-            {/* <img src={headerImg} alt="" /> */}
             <div>
                 <p>
                     مركز للحرف اليدوية هو مشروع تعليمي اقتصادي سياحي تجاري خاص بالحرف التقليدية واليدوية،
